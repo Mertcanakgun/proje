@@ -1,0 +1,420 @@
+body{
+display: grid;
+grid-template-columns:repeat(10,100px) ;
+grid-template-rows: repeat(8,100px);
+place-content: center;
+gap: 5px;
+}
+
+div{
+background-color: red;
+}
+
+
+
+.kutu9{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.kutu10{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.kutu11{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.kutu12{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.kutu13{
+    grid-row: 6;
+    grid-column: 1;
+}
+
+.kutu14{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+.kutu15{
+    grid-row: 8;
+    grid-column: 3;
+}
+
+.kutu16{
+    grid-row: 8;
+    grid-column: 4;
+}
+
+.kutu17{
+    grid-row: 8;
+    grid-column: 5;
+}
+
+.kutu18{
+    grid-row: 8;
+    grid-column: 6;
+}
+
+.kutu19{
+    grid-row: 7;
+    grid-column: 7;
+}
+
+.kutu20{
+    grid-row: 5;
+    grid-column: 8;
+}
+
+.kutu21{
+    grid-row: 6;
+    grid-column: 8;
+}
+
+.kutu22{
+    grid-row: 4;
+    grid-column: 8;
+}
+
+.kutu23{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+.kutu24{
+    grid-row: 2;
+    grid-column: 8;
+}
+
+.kutu25{
+    grid-row: 2;
+    grid-column: 9;
+}
+
+.kutu26{
+    grid-row: 2;
+    grid-column: 10;
+}
+
+.kutu27{
+    grid-row: 3;
+    grid-column: 10;
+}
+
+.kutu28{
+    grid-row: 4;
+    grid-column: 10;
+}
+
+.kutu29{
+    grid-row: 5;
+    grid-column: 10;
+}
+
+.kutu30{
+    grid-row: 5;
+    grid-column: 9;
+}
+
+
+
+
+
+
+.kutular1{
+    grid-row: 7;
+    grid-column: 3;
+    background-color: aqua;
+}
+
+.kutular2{
+    background-color: aqua;
+    grid-row: 7;
+    grid-column: 4;
+}
+
+.kutular3{
+    background-color: aqua;
+    grid-row: 7;
+    grid-column: 5;
+}
+
+.kutular4{
+    background-color: aqua;
+    grid-row: 7;
+    grid-column: 6;
+}
+
+.kutular5{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 3;
+}
+
+.kutular6{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 4;
+}
+
+.kutular7{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 5;
+}
+
+.kutular8{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 6;
+}
+
+.kutular9{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.kutular10{
+    background-color: aqua;
+    grid-row: 6;
+    grid-column: 7;
+}
+
+.kutular11{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.kutular12{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 4;
+
+}
+
+.kutular13{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 5;
+}
+
+.kutular14{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 6;
+}
+
+.kutular15{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 7;
+}
+
+.kutular16{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.kutular17{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.kutular18{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 6;
+}
+
+.kutular19{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 7;
+}
+
+.kutular20{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.kutular21{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.kutular22{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.kutular23{
+    background-color: aqua;
+    grid-row: 3;
+    grid-column: 5;
+}
+
+.kutular24{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.kutular25{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.kutular26{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.kutular27{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 5;
+}
+
+.kutular28{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 6;
+}
+
+.kutular29{
+    background-color: aqua;
+    grid-row: 2;
+    grid-column: 7;
+}
+
+.kutular30{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.kutular31{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 5;
+}
+
+.kutular32{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 6;
+}
+
+.kutular33{
+    background-color: yellow;
+    grid-row: 4;
+    grid-column: 7;
+}
+
+.kutular34{
+    background-color: yellow;
+    grid-row: 5;
+    grid-column: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
